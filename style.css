@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+}
+
+.wrapper{
+    display: flex;;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+img{
+    width: 45vh;
+    height: 30vh;
+    max-width: 100%;
+}
+.wrapper .card-one{
+    border: 1px solid saddlebrown;
+    text-align: center;
+    width:45vh;
+    max-width: 100%;
+    margin:  20px;
+}
+.card-one #image{
+    max-width: 100%;
+}
+.card-one .name {
+    padding-bottom: 12px;
+}
+.card-one .name p{
+    margin: 20px 0;
+    max-width: 100%;
+}
+.card-one .name{
+    /* background: rgb(61, 58, 58); */
+    background: #FFFFE0;
+    color: black;
+    padding: 10px 5px;
+}
+.card-one .name h5{
+    margin: 0px;
+}
+.card-one .name h1{
+    margin: 0px;
+}
+
+
+    /* Card two */
+
+.wrapper .card-two{
+    border: 1px solid saddlebrown;
+    text-align: center;
+    width:45vh;
+    max-width: 100%;
+    margin:  20px;
+}
+.card-two #image{
+    max-width: 100%;
+}
+.card-two .name p{
+    margin: 20px 0;
+    max-width: 100%;
+}
+.card-two .name{
+    background: #FFFFE0;
+    color: black;
+    padding: 10px 5px;
+}
+.card-two .name h5{
+    margin: 0px;
+}
+.card-two .name h1{
+    margin: 0px;
+}
+
+
+/* Card three */
+.wrapper .card-third{
+    border: 1px solid saddlebrown;
+    text-align: center;
+    width:45vh;
+    max-width: 100%;
+    margin: 20px;
+}
+.card-third #image{
+    max-width: 100%;
+}
+.card-third .name p{
+    margin: 20px 0;
+    max-width: 100%;
+}
+.card-third .name{
+    /* background: rgb(61, 58, 58); */
+    background: #FFFFE0;
+    color: black;
+    padding: 10px 5px;
+}
+.card-third .name h5{
+    margin: 0px;
+}
+.card-third .name h1{
+    margin: 0px;
+}
+
+
+
+.social-icons{
+    background: #CD5C5C;
+    height: 15vh;
+    /* border: 3px solid black; */
+}
+.fa{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fa:hover{
+    font-weight: bolder;
+}
+.fa-facebook{
+    font-size: 2rem;;
+    background:	#CD5C5C;
+    color: #fff;
+} 
+.fa-twitter{
+    font-size: 2rem;;
+    background:	#CD5C5C;
+    color: #fff;
+}
+.fa-linkedin{
+    font-size: 2rem;;
+    background:	#CD5C5C;
+    color: #fff;
+}
